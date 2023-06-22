@@ -36,17 +36,17 @@ const section2: ISectionData = {
 
 const socialMedias: ISocialMedia[] = [
   {
-    imgSrc: IconInstagram,
+    icon: IconInstagram,
     url: 'https://www.instagram.com/',
     name: 'Instagram'
   },
   {
-    imgSrc: IconFacebook,
+    icon: IconFacebook,
     url: 'https://www.facebook.com/',
     name: 'Facebook'
   },
   {
-    imgSrc: IconWhatsapp,
+    icon: IconWhatsapp,
     url: `https://wa.me/${whatsappNumber}`,
     name: formatPhone(whatsappNumber)
   },

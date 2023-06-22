@@ -1,6 +1,6 @@
 export interface ISocialMedia {
   name: string,
-  imgSrc: string,
+  icon: any,
   url: string
 }
 

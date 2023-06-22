@@ -32,7 +32,7 @@ const LocaleSwitcher = () => {
         onClick={handleToggle}
       >
         Selecione uma opção
-        <Image src={IconWorld.src}/>
+        <Image src={IconWorld.src} alt={""}/>
       </button>
 
       {isOpen && (
