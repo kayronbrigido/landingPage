@@ -22,6 +22,4 @@ jobs:
         run: npm install
 
       - name: Build
-        run: |
-            npm run build
-            npm run gh-pages -d .next
+        run: npm run build && npm run gh-pages -d .next
