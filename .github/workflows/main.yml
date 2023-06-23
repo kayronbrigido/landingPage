@@ -23,4 +23,4 @@ jobs:
 
       - name: Build
         run: npm run build
-        run: npm gh-pages -d .next
+        run: npm run gh-pages -d .next
